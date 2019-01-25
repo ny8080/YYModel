@@ -59,6 +59,8 @@ User *user = [User yy_modelWithJSON:json];
 	
 // Convert model to json:
 NSDictionary *json = [user yy_modelToJSONObject];
+
+测试
 ```
 
 If the type of an object in JSON/Dictionary cannot be matched to the property of the model, the following automatic conversion is performed. If the automatic conversion failed, the value will be ignored.
